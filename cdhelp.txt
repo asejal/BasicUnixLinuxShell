@@ -1,0 +1,14 @@
+cd: cd [-L]
+	cd [--help]
+	Change the shell working directory.
+
+	Change the current directory to DIR.  The default DIR is the value of the root directory represented by '/'. Initially the directory is the directory in which the shell file is. For moving to a directory which has a space in the name use the backward slash ('\') instead of the space.
+
+	Options:
+	-L		force symbolic links to be followed: resolve symbolic links in DIR after processing instances of '..'
+	--help	open this menu for more information on the cd command for this basic Linux/Unix shell
+
+	The dafualt is to follow the '-L' command and behave as if it was specified.
+
+	Exit Status:
+	Returns 1 if the directory is changed and unless an error due to invalid option occurs in which case, it returns 0.                                                          

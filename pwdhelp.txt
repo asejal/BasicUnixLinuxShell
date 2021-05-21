@@ -1,0 +1,12 @@
+pwd: pwd [-L]
+	 pwd [--help]
+	 Print the name of the current working directory
+
+	 OPTIONS:
+	 -L		print the value of $PWD is it names the current working directory
+	 --help	open this menu for more information on the pwd command for this basic Linux/Unix shell
+
+	 By default, 'pwd' behaves as if '-L' were specified.
+
+	 Exit Status:
+	 Returns 1 unless an error due to invalid option or unreadable current directory occurs in which case, it returns the error number errno is set to.

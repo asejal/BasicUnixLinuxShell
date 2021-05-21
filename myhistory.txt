@@ -1,0 +1,37 @@
+history
+echo """"hi"
+echo
+echo bye\b
+ls
+mkdir my\world
+ls
+cd my\world
+ls
+ls my\world
+rm my\world
+rm my\world
+exit
+ls
+cd ..
+cd Task2
+ls
+cd my\world
+ls
+cd ..
+ls
+rm my\world
+ls -m
+rm -i my\world
+ls
+cd my\world
+exit
+mkdir love\me
+ls
+ls love\me
+ls -a love\me
+rem love\me
+rm love\me
+rm -i love\me
+ls
+cd love\me
+exit
